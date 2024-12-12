@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.freefair.lombok' version '8.11'
+    id 'io.freefair.lombok' version '8.6'
 }
 
 group 'ru.netology'
@@ -31,5 +31,5 @@ test {
     // свойство selenide.headless используется в проектах на основе Selenide для передачи значения параметра в JVM
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
     // свойство chromeoptions.prefs используется для задания настроек браузера в проектах на основе Selenide, выключаем менеджер паролей
-//    systemProperty 'chromeoptions.prefs', System.getProperty('chromeoptions.prefs', "profile.password_manager_leak_detection=false")
+    systemProperty 'chromeoptions.prefs', System.getProperty('chromeoptions.prefs', "profile.password_manager_leak_detection=false")
 }

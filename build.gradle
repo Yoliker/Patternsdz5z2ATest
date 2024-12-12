@@ -20,8 +20,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
     testImplementation 'com.codeborne:selenide:6.19.1'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'io.rest-assured:rest-assured:4.3.0'
-    testImplementation 'com.google.code.gson:gson:2.8.6'
+    testImplementation 'io.rest-assured:rest-assured:5.3.1'
+    testImplementation 'com.google.code.gson:gson:2.11.0'
 
 }
 
